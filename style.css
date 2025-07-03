@@ -1,4 +1,4 @@
-body.dark-theme {
+body.main {
     background: #181A20;
     color: #fff;
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -34,7 +34,6 @@ body.dark-theme {
     font-weight: 600;
     text-decoration: none;
     font-size: 1.1rem;
-    transition: background 0.2s;
 }
 .cta:hover {
     background: #00b3cc;
@@ -43,10 +42,12 @@ body.dark-theme {
 .trusted-by {
     padding: 40px 0 20px 0;
     text-align: center;
+    background-color: rgb(255, 255, 255);
 }
 .trusted-by h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    color: black;
 }
 .partners-logos {
     display: flex;
@@ -67,13 +68,14 @@ body.dark-theme {
 }
 
 .products-services {
-    background: linear-gradient(rgba(35,37,43,0.92), rgba(35,37,43,0.92)), url('./pictures/Odds_feed_backoffice_setting_platform_9af331d184.png') center/cover no-repeat;
+    background: url('./pictures/image_53.png') center/cover no-repeat;
     padding: 50px 0;
     text-align: center;
 }
 .products-services h2 {
     font-size: 2rem;
     margin-bottom: 32px;
+    color: white;
 }
 .products-list {
     display: flex;
@@ -82,7 +84,7 @@ body.dark-theme {
     gap: 32px;
 }
 .product {
-    background: #181A20;
+    background: #ffffff;
     border-radius: 18px;
     padding: 28px 20px 20px 20px;
     width: 260px;
@@ -98,19 +100,33 @@ body.dark-theme {
 .product h3 {
     margin: 0 0 10px 0;
     font-size: 1.2rem;
+    color: black;
 }
 .product p {
-    color: #b0b3b8;
+    color: #000000;
     font-size: 1rem;
+}
+.product_btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px solid black;
+    margin-bottom: 2px;
 }
 
 .why-oddin {
     padding: 50px 0;
     text-align: center;
+    background-color: white;
 }
 .why-oddin h2 {
     font-size: 2rem;
     margin-bottom: 32px;
+    color: black;
+}
+.why-oddin h1 {
+    font-size: 3rem;
+    margin-bottom: 32px;
+    color: black;
 }
 .why-list {
     display: flex;
@@ -119,7 +135,7 @@ body.dark-theme {
     gap: 32px;
 }
 .why-item {
-    background: #23252b;
+    background: #ffffff;
     border-radius: 18px;
     padding: 28px 20px 20px 20px;
     width: 260px;
@@ -135,6 +151,7 @@ body.dark-theme {
 .why-item h3 {
     margin: 0 0 10px 0;
     font-size: 1.2rem;
+    color: black;
 }
 .why-item p {
     color: #b0b3b8;
